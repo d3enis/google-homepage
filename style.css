@@ -1,0 +1,113 @@
+#glogo{  
+position: absolute;
+top:29%;
+right:42%;
+}
+
+.srch{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    margin: 0 auto;
+    width: auto;
+    height: 46px;
+    width: 584px;
+    position: relative;
+    top: 25em;
+}
+.srchtxt {
+    background-color: transparent;
+    height: 34px;
+    z-index: 2;
+    border: none;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin: 5px 50px 0px 50px;
+    font-size: 17px;
+}
+
+#srchbtns{
+    position: absolute;
+    top: 50%;
+    right:49.7em;
+    
+}
+
+.srchbtn{
+
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    width: 142.5px;
+    height: 36px;
+    margin-top: 11px 4px;
+    padding: 0px 16px;
+    outline: none;
+  
+}
+
+.srchbtn:hover{
+    box-shadow:1px 1px 1px 2px gray;
+}
+
+#magfier{
+    position: absolute;
+    top: 26.5em;
+    right:76em;
+    width: 20px;
+    height: 20px;
+    z-index: 4;
+    color: gray;
+
+}
+
+#mic{
+    position: absolute;
+    top: 26.3em;
+    right:42em;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    z-index: 4;
+    color: gray;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #70757a;
+    font-size: 15px;
+}
+
+a:hover{
+ text-decoration: underline;
+
+}
+
+#nav1{
+position: absolute;
+top: 95%;
+
+}
